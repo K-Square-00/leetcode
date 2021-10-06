@@ -15,8 +15,6 @@ class Solution(object):
         else:
             upper_index = lower_index  = int(total_len/2)
         
-        print(upper_index, lower_index, cur_index)
-        
         nums1.append(max_value)
         nums2.append(max_value)
 
@@ -37,4 +35,4 @@ class Solution(object):
         return sum(ans)/len(ans)
 
 
-print(Solution().findMedianSortedArrays([1,2],[3,4]))
+#print(Solution().findMedianSortedArrays([1,2],[3,4]))
