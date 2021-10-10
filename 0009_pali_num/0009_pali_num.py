@@ -6,4 +6,4 @@ class Solution(object):
         """
         return str(x) == str(x)[::-1]
 
-print(Solution().isPalindrome(12321))
+print(Solution().isPalindrome(123))
